@@ -1,6 +1,6 @@
 {
   "name": "gulp-strip-banner",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Strips non-protected banner comments (/** ... */, but not /!** ... */)",
   "main": "index.js",
   "scripts": {

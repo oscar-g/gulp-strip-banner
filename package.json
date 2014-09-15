@@ -9,6 +9,10 @@
   "keywords": [
     "gulpplugin", "banner", "strip", "comments"
   ],
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/oscar-g/gulp-strip-banner/"
+  },
   "author": {
     "name": "Oscar Gonzalez",
     "email": "me@oscargonzalez.us",

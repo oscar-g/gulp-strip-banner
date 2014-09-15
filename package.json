@@ -1,0 +1,28 @@
+{
+  "name": "gulp-strip-banner",
+  "version": "0.0.1",
+  "description": "Strips non-protected banner comments (/** ... */, but not /!** ... */)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "gulpplugin", "banner", "strip", "comments"
+  ],
+  "author": {
+    "name": "Oscar Gonzalez",
+    "email": "me@oscargonzalez.us",
+    "url":"http://www.oscargonzalez.us"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-util": "^3.0.1",
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.1",
+    "strip-comments": "^0.3.2",
+    "through2": "^0.6.1"
+  }
+}

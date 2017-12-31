@@ -4,14 +4,14 @@
 
 var strip_banner = require('../');
 var should = require('should');
-var gutil = require('gulp-util');
+var Vinyl = require('vinyl');
 require('mocha');
 
 describe('strip_banner', function(){
   var fakeFile;
 
   function getFakeFile(fileContent){
-    return new gutil.File({
+    return new Vinyl({
       path: './test/fixture/test.js',
       cwd: './test/',
       base: './test/fixture/',

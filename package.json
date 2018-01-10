@@ -7,16 +7,19 @@
     "test": "mocha --reporter spec"
   },
   "keywords": [
-    "gulpplugin", "banner", "strip", "comments"
+    "gulpplugin",
+    "banner",
+    "strip",
+    "comments"
   ],
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "https://github.com/oscar-g/gulp-strip-banner/"
   },
   "author": {
     "name": "Oscar Gonzalez",
     "email": "me@oscargonzalez.us",
-    "url":"http://www.oscargonzalez.us"
+    "url": "http://www.oscargonzalez.us"
   },
   "license": "MIT",
   "devDependencies": {
@@ -26,7 +29,7 @@
   },
   "dependencies": {
     "gulp-util": "^3.0.1",
-    "strip-comments": "^0.3.2",
+    "strip-banner": "^0.2.0",
     "through2": "^0.6.1"
   }
 }

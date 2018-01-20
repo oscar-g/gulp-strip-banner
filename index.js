@@ -1,8 +1,7 @@
 // through2 is a thin wrapper around node transform streams
 var through = require('through2');
-var gutil = require('gulp-util');
+var PluginError = require('plugin-error');
 var stripBanner = require('strip-banner');
-var PluginError = gutil.PluginError;
 
 // consts
 const PLUGIN_NAME = 'gulp-strip-banner';

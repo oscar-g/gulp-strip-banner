@@ -23,12 +23,12 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^1.21.4",
-    "should": "^4.0.4",
+    "mocha": "^5.0.0",
+    "should": "^13.2.1",
     "vinyl": "^2.1.0"
   },
   "dependencies": {
-    "plugin-error": "^0.1.2",
+    "plugin-error": "^1.0.0",
     "strip-banner": "^0.2.0",
     "through2": "^2.0.3"
   }
